@@ -17,8 +17,32 @@ html, body{
     height: 100%;
     overflow: hidden;
 
-    background-color: #F00E0E
+    background-color: #222
 }
+
+.img-self{
+  width: 240px;
+}
+
+.img-title{
+  text-align: center;
+  margin: 20px 0 0 0;
+
+  color: #a7a0a2;
+}
+
+.img-figure {
+  position: fixed;
+  width: 320px;
+  height: 360px;
+  margin: 0;
+  padding: 40px;
+
+  background-color: #fff;
+
+  box-sizing: border-box;
+}
+
 
 .controller-nav {
   position: absolute;
