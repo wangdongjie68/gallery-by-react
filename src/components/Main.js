@@ -276,7 +276,7 @@ center: function(index){
         }
 
           var imgFigureRef = 'imgFigure' + index;
-          imgFigures.push(<ImgFigure data = {value} key = {Math.random()} ref={imgFigureRef} arrange={this.state.imgsArrangeArr[index]}
+          imgFigures.push(<ImgFigure data = {value} key = { index } ref={imgFigureRef} arrange={this.state.imgsArrangeArr[index]}
                           inverse={this.inverse(index)} center={this.center(index)}/>);
         }.bind(this));
 
